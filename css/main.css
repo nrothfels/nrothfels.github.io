@@ -1,3 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Khula:400';
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -20,13 +27,54 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-family: "clarendon-text-pro", sans serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.20;
+  opacity: 1.00;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  letter-spacing: -0.72px;
+  word-spacing: 0.00px;
+  text-transform: none;
+}
+
+h2 {
+  font-family: "clarendon-text-pro", sans serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+h3 {
+    font-family: "clarendon-text-pro", sans serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 0.00px;
+    word-spacing: 0.00px;
+    text-transform: none;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+  font-family: "Khula", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.60;
+  opacity: 0.70;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  letter-spacing: -0.30px;
+  word-spacing: -0.10px;
+  text-transform: none;
 }
 footer {
     border-top: 1px solid #d5d5d5;

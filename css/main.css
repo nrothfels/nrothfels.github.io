@@ -10,7 +10,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "clarendon-text-pro", sans serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,11 +21,17 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #9E034E;
 }
 a:hover {
     text-decoration: underline;
+    color: #9E034E;
 }
+a:visited {
+  text-decoration: none;
+  color: #6B0236;
+}
+
 h1 {
   font-family: "clarendon-text-pro", sans serif;
   font-size: 28px;
@@ -37,6 +43,7 @@ h1 {
   letter-spacing: -0.72px;
   word-spacing: 0.00px;
   text-transform: none;
+  color: #CA337C;
 }
 
 h2 {

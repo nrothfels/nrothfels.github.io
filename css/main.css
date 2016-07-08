@@ -9,16 +9,19 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+footer {
     font-family: "Khula", sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
-nav ul li, footer ul li {
+header {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #9E034E;
@@ -30,6 +33,10 @@ a:hover {
 a:visited {
   text-decoration: none;
   color: #6B0236;
+}
+
+img.avatar {
+  margin-bottom:30px;
 }
 
 h1 {
@@ -83,14 +90,9 @@ p {
     word-spacing: -0.10px;
     text-transform: none;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 
 ul.posts {
     margin: 20px auto 40px;
-    font-size: 1.5em;
 }
 
 ul.posts li {

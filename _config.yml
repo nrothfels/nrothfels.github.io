@@ -1,3 +1,6 @@
-name: Natalie Rothfels
+title: Natalie Rothfels
+description: Musings on learning, teaching, and building
+twitter_username: natatouille
+github_username: nrothfels
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title

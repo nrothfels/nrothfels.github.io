@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Cambo:400|Hind+Madurai:300';
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:"Hind Madurai", sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    font-family:"Hind Madurai", sans-serif;
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+  color: #626569;
+  font-size: .8em;
+  font-family: "Hind Madurai" sans-serif;;
+  font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: #9E034E;
+}
+a:hover {
+    text-decoration: underline;
+    color: #9E034E;
+}
+a:visited {
+  text-decoration: none;
+  color: #6B0236;
+}
+h1 {
+  font-family: "Cambo", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+    color: #CA337C;
+}
+
+h2 {
+  font-family: "Cambo", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+  }
+
+h3 {
+  font-family: "Cambo", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 0.00px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+p {
+  font-family: "Hind Madurai", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.60;
+    opacity: 0.75;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: -0.30px;
+    word-spacing: -0.10px;
+    text-transform: none;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}

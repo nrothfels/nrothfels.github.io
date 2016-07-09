@@ -1,12 +1,24 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+<title>Natalie Rothfels</title>
+<body>
+  <nav class="header">
+    <ul class="upper-nav">
+      <li>blog</li>
+      <li>contact</li>
+      <li>resume</li>
+      <li>about</li>
+    </ul>
+  </nav>
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-</head>
+  <div class="container">
+    <div class="who-am-i">
+      <h1>Hi there, I'm Natalie!</h1>
+      <p>I'm a Product Manager <a href="https://khanacademy.org">Khan Academy</a>
+        where I work on expanding access to free educational resources to learners
+        outside the US. </p>
+      <p> Outside of work, I teach vinyasa yoga and make a lot of terrible puns.</p>
+    </div>
+  </div>
+</body>
+</html>

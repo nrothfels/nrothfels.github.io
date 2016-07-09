@@ -1,6 +1,13 @@
+# site settings
 title: Natalie Rothfels
 description: Musings on learning, teaching, and building
+email: nrothfels@gmail.com
+markdown: redcarpet
+baseurl: ""
+url: "https://nrothfels.github.io"
+
+# social
 twitter_username: natatouille
 github_username: nrothfels
-markdown: kramdown
+
 permalink: /blog/:year/:month/:day/:title

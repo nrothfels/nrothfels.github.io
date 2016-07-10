@@ -2,7 +2,7 @@
 title: Natalie Rothfels
 description: Musings on learning, teaching, and building
 email: nrothfels@gmail.com
-markdown: redcarpet
+markdown: kramdown
 baseurl: ""
 url: "https://nrothfels.github.io"
 

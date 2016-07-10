@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Cambo:400|Hind+Madurai:300';
+@import 'https://fonts.googleapis.com/css?family=Cambo:400|Hind+Madurai:300, 200';
 
 html {
     -webkit-font-smoothing: antialiased;
@@ -19,17 +19,18 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     font-family:"Hind Madurai", sans-serif;
     display: inline;
     margin-right: 20px;
+    font-weight:200;
 }
 
 footer {
   color: #626569;
-  font-size: .8em;
   font-family: "Hind Madurai" sans-serif;;
-  font-weight: 200;
+  border-top: 1px solid #d5d5d5;
 }
 
 a {
@@ -95,15 +96,25 @@ p {
     word-spacing: -0.10px;
     text-transform: none;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
+
+footer ul{
+  font-size:0.7em;
+}
+
+h1 a.title:visited {
+  color: #CA337C;
 }
 
 ul.posts {
+    font-family: "Cambo", sans-serif;
     margin: 20px auto 40px;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+img {
+  margin:10px 10px 10px 0;
 }

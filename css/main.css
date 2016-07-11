@@ -14,14 +14,16 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:"Hind Madurai", sans-serif;
+    font-family:"Cambo", sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    display:inline;
+    font-weight:200;
 }
 
 nav ul li, footer ul li {
-    font-family:"Hind Madurai", sans-serif;
+    font-family:"Cambo", sans-serif;
     display: inline;
     margin-right: 20px;
     font-weight:200;
@@ -29,8 +31,9 @@ nav ul li, footer ul li {
 
 footer {
   color: #626569;
-  font-family: "Hind Madurai" sans-serif;;
+  font-family: "Cambo" sans-serif;;
   border-top: 1px solid #d5d5d5;
+  font-weight: 200;
 }
 
 a {
@@ -45,7 +48,8 @@ a:visited {
   text-decoration: none;
   color: #6B0236;
 }
-h1 {
+
+h1.title {
   font-family: "Cambo", serif;
     font-size: 28px;
     font-weight: 400;
@@ -59,8 +63,22 @@ h1 {
     color: #CA337C;
 }
 
+h1 {
+  font-family: "Hind Madurai", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+    color: #CA337C;
+}
+
 h2 {
-  font-family: "Cambo", serif;
+  font-family: "Hind Madurai", serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.20;
@@ -73,7 +91,7 @@ h2 {
   }
 
 h3 {
-  font-family: "Cambo", serif;
+  font-family: "Hind Madurai", serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.20;
@@ -101,18 +119,26 @@ footer ul{
   font-size:0.7em;
 }
 
+footer p {
+  font-family: "Cambo", sans-serif;
+}
+
 h1 a.title:visited {
   color: #CA337C;
 }
 
-ul.posts {
-    font-family: "Cambo", sans-serif;
-    margin: 20px auto 40px;
-    font-size: 1em;
-}
-
-ul.posts li {
+ul.post {
     list-style: none;
+    font-family: "Hind Madurai", sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.60;
+      opacity: 0.75;
+      margin-top: 0px;
+      margin-bottom: 25px;
+      letter-spacing: -0.30px;
+      word-spacing: -0.10px;
+      text-transform: none;
 }
 
 img {

@@ -127,18 +127,9 @@ h1 a.title:visited {
   color: #CA337C;
 }
 
-ul.post {
+div.post {
     list-style: none;
     font-family: "Hind Madurai", sans-serif;
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 1.60;
-      opacity: 0.75;
-      margin-top: 0px;
-      margin-bottom: 25px;
-      letter-spacing: -0.30px;
-      word-spacing: -0.10px;
-      text-transform: none;
 }
 
 img {
